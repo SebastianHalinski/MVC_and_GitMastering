@@ -72,7 +72,7 @@ def get_todo_items_table(items):
             index += 1
 
     tab = tt.Texttable()
-    headings = ['Idx', '  Name   ']
+    headings = ['Idx', 'Name']
     tab.header(headings)
 
     for row in zip(index_data, name_data):
