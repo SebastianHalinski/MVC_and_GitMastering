@@ -1,5 +1,4 @@
 from controler import*
-import sys
 import os
 
 
