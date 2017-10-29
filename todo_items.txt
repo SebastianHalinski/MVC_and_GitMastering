@@ -1,0 +1,4 @@
+spac,smacznie cala noc,True
+dziwactwo,Hmmmmm,False
+Pocwiczyc,bicek tricek klata barki uda SILA!!!!!!!!!!,True
+jedzonko,na sniadanie jajka i kielbasa i jeszcze tost,True
