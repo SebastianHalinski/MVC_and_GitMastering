@@ -31,13 +31,13 @@ def add_item(items):
 
 
 def changing_name(items):
-    index_item_to_change_name = int(input('witch item name You want to change?: '))
+    index_item_to_change_name = int(input('witch item name You want to change(by index)?: '))
     item_to_change_name = items.item_data[index_item_to_change_name]
     item_to_change_name.name = set_name()
 
 
 def changing_description(items):
-    index_of_item = int(input('witch item name You want to change?: '))
+    index_of_item = int(input('witch item name You want to change(by index)?: '))
     item_to_change = items.item_data[index_of_item]
     item_to_change.description = set_description()
 
@@ -84,7 +84,7 @@ def get_todo_items_table(items):
 
 
 def get_specyfic_info_of_todoitem(items):
-    index_of_item = int(input('choose item to see specific info: '))
+    index_of_item = int(input('choose item to see specific info(by index): '))
     choosen_item = items.item_data[index_of_item]
     print('item index: ', index_of_item)
     print('Item name: ', choosen_item.name)
